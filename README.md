@@ -17,10 +17,8 @@ O dataset contém mensagens de texto rotuladas como "spam" ou "ham" (não spam).
 ## 🧠 Técnica Utilizada
 
 - **Modelo:** Multinomial Naive Bayes (`MultinomialNB`)
-- **Pré-processamento:** 
-  - Limpeza e normalização dos textos
-  - Remoção de stopwords
-  - Vetorização com `TfidfVectorizer`
+  - Ajustado com `class_prior` para lidar com o desbalanceamento de classes
+- **Vetorização:** `TfidfVectorizer`
 
 ## ✅ Resultados
 
