@@ -20,7 +20,7 @@ O dataset contém mensagens de texto rotuladas como "spam" ou "ham" (não spam).
 - **Pré-processamento:** 
   - Limpeza e normalização dos textos
   - Remoção de stopwords
-  - Vetorização com `CountVectorizer`
+  - Vetorização com `TfidfVectorizer`
 
 ## ✅ Resultados
 
